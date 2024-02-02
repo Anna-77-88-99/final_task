@@ -1,0 +1,120 @@
+body {
+	margin: 0; padding: 0;
+	background: linear-gradient( 90deg,
+    rgba(255, 225, 132, .7) 50%, rgba(255,255,255, 0) 50%),
+	linear-gradient( 90deg,
+	rgba(32, 113, 120, .3) 50%, rgba(255,255,255, 0) 50%),
+	linear-gradient( 90deg,
+	rgba(255, 150, 102, .3) 50%, rgba(255,255,255, 0) 50%),
+	linear-gradient( 90deg,
+    rgba(23, 76, 79, .1) 50%, rgba(255,255,255, 0) 50%);
+    background-size: 7em 7em, 5em 5em, 3em 3em, 1em 1em;
+    background-color: #F5E9BE;
+	color: #fff;
+}
+.logo {
+	 float: left;
+	 margin: 10px;
+	 padding: 20px;
+	 font-size: 27px;
+	 border: 3px solid white;
+	 border-radius: 10px;
+	 background-color: rgb(238, 143, 54);
+}
+.logo:hover
+{
+	border: 2px solid rgb(238, 143, 54);
+	color: rgb(238, 143, 54);
+	background-color: white;
+}
+ nav {
+	 float: right;
+}
+ nav ul {
+	 margin: 0;
+	 padding: 0;
+	 list-style: none;
+}
+ nav li {
+	 display: inline-block;
+}
+
+ a {
+	 color: white;
+	 text-transform: uppercase;
+	 text-decoration: none;
+	 
+
+}
+a.link-main
+{
+	margin: 20px 5px 10px 5px;
+	padding: 50px 20px 30px 20px;
+	font-size: 27px;
+	border: 3px solid white;
+	border-radius: 10px;
+	background-color: rgb(238, 143, 54);
+}
+a.link-main:hover
+{
+	border: 2px solid rgb(238, 143, 54);
+	color: rgb(238, 143, 54);
+	background-color: white;
+}
+ h1 {
+	 color: #008080
+}
+ p {
+	 color: #008000
+}
+ ol {
+	 color: #008000
+}
+.container {
+	height: 100px;
+	background-image: linear-gradient(to right, darkorange, #E4514A);
+	border-radius: 0 0 15px 15px;
+}
+.col-1-2 {
+	width: 50%;
+}
+footer
+{
+	padding-top: 50px;
+	padding-bottom: 50px;
+	background-image: linear-gradient(to right, darkorange, #E4514A);
+	border-radius: 15px 15px 0 0 ;
+}
+.footer-text
+{
+	font-size: 35px;
+	text-transform: uppercase;
+	text-align: center;
+	color: white;
+}
+.main
+{
+	margin: 0 auto;
+	padding: 20px;
+	max-width: 1500px;
+  	min-width: 320px;
+	background-color: white;
+}
+.content
+{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+}
+.img-link
+{
+	width: 550px;
+	height: 550px;
+	border-radius: 20px;
+	border: 3px solid rgba(0, 0, 0, 0.158);
+	
+}
+.img-link:hover
+{
+	border: 3px solid darkorange
+}

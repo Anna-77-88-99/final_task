@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 24px;
+    background: linear-gradient( 90deg,
+    rgba(255, 225, 132, .7) 50%, rgba(255,255,255, 0) 50%),
+linear-gradient( 90deg,
+    rgba(32, 113, 120, .3) 50%, rgba(255,255,255, 0) 50%),
+linear-gradient( 90deg,
+    rgba(255, 150, 102, .3) 50%, rgba(255,255,255, 0) 50%),
+linear-gradient( 90deg,
+    rgba(23, 76, 79, .1) 50%, rgba(255,255,255, 0) 50%);
+    background-size: 7em 7em, 5em 5em, 3em 3em, 1em 1em;
+    background-color: #F5E9BE;
+}
+#news-body{
+margin: 0 auto;
+max-width: 1500px;
+min-width: 320px;
+background-color: white;
+padding: 70px;
+}
+.font-style
+{
+    font-weight: bold;
+}
+.docker-img
+{
+    display: block;
+    margin: 0 auto;
+}
+.navigator
+{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
+.nav-link
+{
+    margin: 10px;
+    padding: 10px;
+    background-color: dodgerblue;
+    color: white;
+    border-radius: 5px;
+    border: 1px solid dodgerblue;
+    text-decoration: none;
+    font-size: 30px;
+}
+.nav-link:hover{
+    background-color: white;
+    color: dodgerblue;
+}
